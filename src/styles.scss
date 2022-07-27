@@ -16,3 +16,14 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+body{
+    background-color: rgb(216, 189, 215);
+}
+.footer__text {
+    color: rgb(216, 189, 215);
+    font-size: 1.3rem;
+}
+.footer__text a {
+    color: rgb(216, 189, 215);
+}
