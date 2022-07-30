@@ -27,3 +27,6 @@ body{
 .footer__text a {
     color: rgb(216, 189, 215);
 }
+.img-project {
+    filter: blur(5px) grayscale(50%) opacity(80%);
+}
