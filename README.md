@@ -4,7 +4,7 @@
     <h2 class="section-title load-hidden">About me</h2>
     <div class="row about-wrapper">
       <div class="col-md-6 col-sm-12">
-        <div class="about-wrapper__image load-hidden">
+        <!-- <div class="about-wrapper__image load-hidden">
           <img
             alt="Profile Image"
             class="img-fluid rounded shadow-lg"
@@ -13,26 +13,23 @@
             src="assets/profile.jpg"
             alt="Profile Image"
           />
-        </div>
+        </div> -->
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="about-wrapper__info load-hidden">
           <p class="about-wrapper__info-text">
-            This is where you can describe about yourself. The more you describe
-            about yourself, the more chances you can!
+          This project's first intention is to chalanging myself to create nice projects during my learning path into the IT world.
           </p>
-          <p class="about-wrapper__info-text">
-            Extra Information about you! like hobbies and your goals.
-          </p>
+          <!-- <p class="about-wrapper__info-text"> Feel free to reach out</p> -->
           <span class="d-flex mt-3">
-            <a
+            <!-- <a
               rel="noreferrer"
               target="_blank"
               class="cta-btn cta-btn--resume"
               href="assets/resume.pdf"
             >
               View Resume
-            </a>
+            </a> -->
           </span>
         </div>
       </div>
