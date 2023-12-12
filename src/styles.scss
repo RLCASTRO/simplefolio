@@ -17,16 +17,36 @@
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
 
-body{
-    background-color: rgb(216, 189, 215);
+body {
+  background-color: rgb(216, 189, 215);
 }
 .footer__text {
-    color: rgb(216, 189, 215);
-    font-size: 1.3rem;
+  color: rgb(216, 189, 215);
+  font-size: 1.3rem;
 }
 .footer__text a {
-    color: rgb(216, 189, 215);
+  color: rgb(216, 189, 215);
 }
 .img-project {
-    filter: blur(5px) grayscale(50%) opacity(80%);
+  filter: blur(5px) grayscale(50%) opacity(80%);
 }
+
+.icons {
+  // color: red;
+  // font-size: 3em;
+  text-align: center;
+}
+
+.icon-text {
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+// .jquery-icon {
+//   background: url("./assets/jquery.svg") center no-repeat;
+//   display: inline-block;
+//   width: 30px;
+//   height: 30px;
+//   color: red;
+// }
