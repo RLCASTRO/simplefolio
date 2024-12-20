@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-  <title>Rodrigo Castro | Developer</title>
+  <title>Rodrigo Castro | Software Developer</title>
   <meta name="keywords" content="fullstack, web developer, front-end, back-end, rlcastro, Rodrigo Castro, Developer" />
   <meta name="description" content="Rodrigo Castro | Developer" />
 
@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="styles.scss" />
   <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script src="https://kit.fontawesome.com/2cdc7c3d1e.js" crossorigin="anonymous"></script>
+  <script src="./scripts/imageReview.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -53,9 +55,9 @@
         <div class="col-md-6 col-sm-12">
           <div class="about-wrapper__info load-hidden">
             <p class="about-wrapper__info-text">
-              Hi there, my name is <b>Rodrigo</b>, and I am a new graduate from Programmer Analyst course at New
-              Brunswick Community
-              College <br> <br>
+              Hi there, my name is <b>Rodrigo</b>, and I am a <b>Software Developer</b> and former Electrical
+              Engineer. <br>
+              <br>
               I have a passion for technology and problem-solving, so I chose to pursue a career in software
               development.
             </p>
@@ -63,17 +65,22 @@
             <p class="about-wrapper__info-text">
 
               I have experience in both front-end and back-end development, utilizing a range of technologies
-              and frameworks. On the front-end side, I am proficient in Bootstrap, HTML, CSS, and JavaScript, JQuery
-              particularly with React.js.
+              and frameworks. On the front-end side, I am proficient in <b>Bootstrap, HTML, CSS, JavaScript</b>, and
+              <b>JQuery</b>
+              but most of my recent projects are now built using <b>TypeScript, React.js</b>, and <b>React-Native</b>
+              for
+              mobile applications.
+              I also contributed with a few projects using <b>Next.js, Apollo client</b> and <b>GraphQL</b>
               <br><br>
-              For back-end development, I have expertise in Java, PHP, and Node.js, with additional
-              knowledge of Nest.js, Express.js, Apollo Server, GraphQL, and TypeScript.
+              For back-end development, I have some experience with <b>Java, PHP, C#</b> and <b>Node.js</b>, with
+              additional
+              knowledge of the frameworks <b>Nest.js, Express.js</b>, and <b>Laravel</b>.
               <br><br>
 
               Furthermore, I am well-versed in working with various types of databases, including relational databases
-              like MySQL, PostgreSQL, as well as non-relational databases like MongoDB. I am also familiar with
-              Object-Relational
-              Mapping (ORM) systems.
+              like <b>MySQL, PostgreSQL</b>, as well as non-relational databases like <b>MongoDB</b>, and <b>Google
+                Firestore</b>. I am also familiar with
+              Object-Relational Mapping (ORM) with database agnostic implementations.
 
               <br><br>
 
@@ -91,7 +98,7 @@
             </p>
             <span class="d-flex mt-3">
               <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-                href="https://drive.google.com/open?id=1AZiZFLRnMi_OUCttozrfEaVZRQlg3RZW&usp=drive_fs">
+                href="https://drive.google.com/file/d/1kzlWoCMcEE6HGEF5V6qnsUxU5A1kXLa5/view?usp=drive_link">
                 View Resume
               </a>
             </span>
@@ -112,6 +119,207 @@
         <h2 class="section-title dark-blue-text">Projects</h2>
 
         <!-- Notice: each .row is a project -->
+
+        <!-- <------------------- Job Connect ---------------->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Job Connect</h3>
+              <div>
+                <p class="mb-4">
+                  This project encompassed the development of a Minimum Viable Product (MVP) for an early-stage startup,
+                  where a cross-platform approach was achieved through React Native, leveraging Expo for rapid
+                  development and React-Native-Paper for UI components; this involved translating Figma designs provided
+                  by the UI/UX team into a structured library of reusable React components, applying Atomic Design
+                  principles to ensure a high degree of visual and functional consistency across the entire application.
+                </p>
+              </div>
+              <div class='icons'>
+                <ul class="nav col-md-12 justify-content-start list-unstyled d-flex">
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main ">
+                      <p class='icon-text'>React-Native</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-brands fa-e fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>Expo</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>React-Native-Paper</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-solid fa-atom fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>Atomic Design</p>
+                    </i>
+                  </li>
+                </ul>
+              </div>
+
+              <p class=" cta-btn text-color-main">
+                <i class="fa fa-lock "></i>
+                See Live
+              </p>
+              <p class=" cta-btn text-color-main">
+                <i class="fa fa-lock "></i>
+                Source Code
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt img-reveal" onclick="toggleImgProjectClass(event, this)">
+                  <img alt="Project Image" class="img-fluid img-project" src="assets/JobConnect.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <------------------- Job Connect ---------------->
+
+
+        <!-- <------------------- HostelSnap ---------------->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">HostelSnap</h3>
+              <div>
+                <p class="mb-4">
+                  This project successfully implemented a React-based frontend featuring
+                  a drag-and-drop bed planner for reservations, leveraging custom hooks
+                  and context for efficient state management and code reusability;
+                  integrated React-admin to display real-time backup information from
+                  a Firestore database, enhancing administrative oversight; and utilized
+                  Firebase for robust serverless authentication, improving user management
+                  and security,
+                </p>
+              </div>
+              <div class='icons'>
+                <ul class="nav col-md-12 justify-content-start list-unstyled d-flex">
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main ">
+                      <p class='icon-text'>React</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>React-Admin</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-regular fa-calendar fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>FullCalendar.io</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-solid fa-f fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>Firebase</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-solid fa-f fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>Firestore</p>
+                    </i>
+                  </li>
+                </ul>
+              </div>
+
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://www.hostelsnap.com/">
+                See Live
+              </a>
+              <p class=" cta-btn text-color-main">
+                <i class="fa fa-lock "></i>
+                Source Code
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://www.hostelsnap.com/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid img-project" src="assets/HostelSnap.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <------------------- HostelSnap ---------------->
+
+
+        <!-- <------------------- MEALPLANNER ---------------->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Good Meal (Meal Planner)</h3>
+              <div>
+                <p class="mb-4">
+                  I started helping developing this project as a volunteer and I was hired after a couple months
+                  to speed up the project delivery.
+                  Mealplanner is essentially a 3-tier application with a UI (or front end) that executes entirely
+                  in the client's browser, a middleware server that presents a single graphql API and postgres database
+                  backend. The front end is a React app based on React Hooks and React Material UI components.
+                  The middleware is Postgraphile which is a NodeJS service that automatically generates a graphql
+                  API and schema from the structure of a relational database. Finally the application's database
+                  schema is hosted in postgres. More on each of these component tiers below.
+                </p>
+              </div>
+              <div class='icons'>
+                <ul class="nav col-md-12 justify-content-start list-unstyled d-flex">
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main ">
+                      <p class='icon-text'>React</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-brands fa-react fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>React-Admin</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-solid fa-database fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>PostgreSQL</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-solid fa-republican fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>Postgraphile</p>
+                    </i>
+                  </li>
+                  <li class="">
+                    <i class="fa-brands fa-g fa-3x cta-btn text-color-main">
+                      <p class='icon-text'>GraphQL</p>
+                    </i>
+                  </li>
+                </ul>
+              </div>
+
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://goodmealplan.com/#/">
+                See Live
+              </a>
+              <p class=" cta-btn text-color-main">
+                <i class="fa fa-lock "></i>
+                Source Code
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://goodmealplan.com/#/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid img-project" src="assets/GoodMeal.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <------------------- MEALPLANNER ---------------->
 
         <!-- <------------------- Laravel Laragigs ---------------->
         <div class="row">
@@ -611,6 +819,15 @@
   <!-- /END Footer Section -->
 
   <script defer type="module" src="index.js"></script>
+  <script>
+    function toggleImgProjectClass(event, element) {
+      event.preventDefault();
+      const img = element.querySelector('img');
+      if (img) {
+        img.classList.toggle('img-project');
+      }
+    }
+  </script>
 </body>
 
 </html>
